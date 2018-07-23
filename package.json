@@ -1,0 +1,19 @@
+{
+  "name": "billingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rebuild": "electron-rebuild -f -w billingapp",
+    "start": "node index.js"
+  },
+  "author": "S Kundu",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.7.11",
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.7.3"
+  }
+}
